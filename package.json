@@ -1,0 +1,48 @@
+{
+  "name": "ember-cli-list-view",
+  "version": "0.0.1",
+  "description": "List view for Ember CLI apps",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ember server",
+    "build": "ember build",
+    "test": "ember test",
+    "install": "bower install --save-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianmandrup/ember-cli-list-view"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "ember-addon",
+    "list view",
+    "list",
+    "pagination"
+  ],
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  },
+  "author": "Kristian Mandrup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristianmandrup/ember-cli-list-view/issues"
+  },
+  "homepage": "https://github.com/kristianmandrup/ember-cli-list-view",
+  "devDependencies": {
+    "body-parser": "^1.2.0",
+    "broccoli-asset-rev": "0.0.17",
+    "broccoli-ember-hbs-template-compiler": "^1.6.1",
+    "ember-cli": "0.0.44",
+    "ember-cli-ember-data": "0.1.0",
+    "ember-cli-ic-ajax": "0.1.1",
+    "ember-cli-qunit": "0.0.5",
+    "express": "^4.8.5",
+    "glob": "^4.0.5"
+  }
+}

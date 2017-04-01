@@ -1,5 +1,7 @@
 # Ember List View for Ember CLI #
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/ember-cli-list-view.svg)](https://greenkeeper.io/)
+
 This is an addon for [ember list-view](https://github.com/emberjs/list-view) for easy consumption by ember-cli.
 Currently it wraps this [ember-list-view](https://github.com/kristianmandrup/ember-list-view)
 bower component distribution fork while we wait for a "real" release for ember cli.
